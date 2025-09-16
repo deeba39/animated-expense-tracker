@@ -5,9 +5,9 @@ Track income & expenses, visualize spending with charts, and enjoy smooth animat
 
 ---
 
-## 🎥 Live Demo
+## 🎥 Live Demo & Test Application
 
-![Animated Expense Tracker Demo](https://animated-expense-tracker-latest.vercel.app/)
+https://animated-expense-tracker-latest.vercel.app/
 
 ---
 
