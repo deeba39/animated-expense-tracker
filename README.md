@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# 💸 Animated Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, animated expense tracker** built with **React + TypeScript**, **TailwindCSS**, **Framer Motion**, and **ApexCharts**.  
+Track income & expenses, visualize spending with charts, and enjoy smooth animations throughout the app. Perfect for a portfolio or GitHub showcase!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎥 Demo
 
-## Expanding the ESLint configuration
+![Animated Expense Tracker Demo](https://via.placeholder.com/800x400?text=Demo+GIF+Here)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Add, edit, and delete transactions (income & expenses)  
+- Animated transaction list (slide/fade effects)  
+- Count-up animation for balance updates  
+- Donut chart showing spending by category  
+- Persistent storage using **localStorage**  
+- Fully responsive design (desktop & mobile)  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Frontend:** React · TypeScript  
+- **Styling:** TailwindCSS  
+- **Animations:** Framer Motion  
+- **Charts:** ApexCharts  
+- **Storage:** LocalStorage  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## ⚡ Installation & Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/deeba39/animated-expense-tracker.git
+cd animated-expense-tracker
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+
+
