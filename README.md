@@ -45,4 +45,29 @@ npm install
 # Run the app
 npm run dev
 
+```
 
+---
+
+## ✨ Future Improvements
+
+- Backend + Database support for multi-user persistence
+- CSV / PDF export of transactions
+- Category management (add/edit categories)
+- Confetti or celebration animation when balance goal is reached
+- Unit tests for balance calculation and utilities
+
+---
+
+## 📫 Contact / Connect
+
+LinkedIn: https://www.linkedin.com/in/abadebrah/
+Email: abadee39@gmail.com
+
+---
+
+## 🔖 License
+
+This project is MIT Licensed. Feel free to fork, modify, and showcase in your portfolio.
+
+“Building polished, animated web apps that are both fun and functional!” 🚀
